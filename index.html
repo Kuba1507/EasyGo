@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyGoRentals</title>
+    <link rel="icon" href="img/icons/favicon-car.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Roboto:wght@100;400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/55566defb0.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <nav class="nav">
+
+        <div class="logo-box">
+            <div class="logo-box__img">
+                <i class="fa-solid fa-car-tunnel"></i>
+            </div>
+            <div class="logo-box__name">
+                <p class="logo-box__name-text">EasyGo</p>
+                <div class="logo-box__underline"></div>
+            </div>
+        </div>
+
+        <div class="nav__items">
+            <a href="#offers" class="nav__item">Oferty</a>
+            <a href="#fleet" class="nav__item">Flota</a>
+            <a href="#reservation" class="nav__item">Rezerwacja</a>
+            <a href="#contact" class="nav__item">Kontakt</a>
+        </div>
+
+        <button class="burger-btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </nav>
+
+
+    <header class="header">
+        <div class="header__box">
+            <h1 class="header__heading" data-aos="fade-up" data-aos-duration="1500">Wypożyczalnia Aut</h1>
+            <div class="header__underline" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1000"></div>
+            <p class="header__text" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="2000">Sprawdź naszą
+                ofertę już teraz!</p>
+        </div>
+        <div class="header__bottom-arrow-box">
+            <a href="#offers">
+                <img src="img/icons/chevrons-down.svg" alt="" class="chevrons-down bounce-in-top bounce">
+            </a>
+        </div>
+        <div class="white-block-left"></div>
+        <div class="white-block-right"></div>
+    </header>
+
+
+    <main>
+
+        <section class="offers" id="offers">
+            <div class="wrapper">
+                <h2 class="section-title">Oferty</h2>
+                <hr>
+                <div class="offers__box">
+
+                    <div class="offers__card" data-aos="fade-right" data-aos-duration="1500">
+                        <div class="offers__img offers__img--first"></div>
+                        <div class="offers__text">
+                            <h3 class="offers__title">Wynajem krótkoterminowy</h3>
+                            <p>1-5 dni</p>
+                            <a href="#" class="offers__link">Czytaj więcej... <i
+                                    class="fa-solid fa-angle-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="offers__card" data-aos="fade-left" data-aos-duration="1500">
+                        <div class="offers__img offers__img--second"></div>
+                        <div class="offers__text">
+                            <h3 class="offers__title">Wynajem długoterminowy</h3>
+                            <p>6-31 dni</p>
+                            <a href="#" class="offers__link">Czytaj więcej... <i
+                                    class="fa-solid fa-angle-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="offers__card" data-aos="fade-right" data-aos-duration="1500">
+                        <div class="offers__img offers__img--third"></div>
+                        <div class="offers__text">
+                            <h3 class="offers__title">Wynajem motocykla</h3>
+                            <p>1-7 dni</p>
+                            <a href="#" class="offers__link">Czytaj więcej... <i
+                                    class="fa-solid fa-angle-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="offers__card" data-aos="fade-left" data-aos-duration="1500">
+                        <div class="offers__img offers__img--fourth"></div>
+                        <div class="offers__text">
+                            <h3 class="offers__title">Wynajem samochodu dostawczego</h3>
+                            <p>1-31 dni</p>
+                            <a href="#" class="offers__link">Czytaj więcej... <i
+                                    class="fa-solid fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fleet" class="fleet">
+            <div class="wrapper">
+                <h2 class="section-title">Nasza flota</h2>
+                <hr>
+
+                <div class="fleet__box">
+
+                    <div class="fleet__option">
+                        <img src="img/fleet/fiat500.png" alt="Fiat 500" class="fleet__option-img">
+                        <div class="fleet__option-info">
+                            <h3 class="fleet__option-heading">Fiat 500</h3>
+                            <p class="fleet__option-text">Samochody nowe, maksymalnie roczne</p>
+                            <p class="fleet__option-description">
+                                <span><i class="fa-solid fa-gas-pump"></i> Benzyna</span>
+                                <span><i class="fa-solid fa-gears"></i>Automat</span>
+                                <span><i class="fa-solid fa-gauge-simple-high"></i> 5.5l/100km</span>
+                            </p>
+                            <button class="fleet__option-btn">Zarezerwuj</button>
+                        </div>
+                    </div>
+
+                    <div class="fleet__option">
+                        <img src="img/fleet/bmw323.png" alt="BMW 323" class="fleet__option-img">
+                        <div class="fleet__option-info">
+                            <h3 class="fleet__option-heading">BMW 323</h3>
+                            <p class="fleet__option-text">Samochody nowe, maksymalnie roczne</p>
+                            <p class="fleet__option-description">
+                                <span><i class="fa-solid fa-gas-pump"></i> Benzyna</span>
+                                <span><i class="fa-solid fa-gears"></i> Manual</span>
+                                <span><i class="fa-solid fa-gauge-simple-high"></i> 8.5l/100km</span>
+                            </p>
+                            <button class="fleet__option-btn">Zarezerwuj</button>
+                        </div>
+                    </div>
+
+                    <div class="fleet__option">
+                        <img src="img/fleet/mercedes.png" alt="Mercedes W224" class="fleet__option-img">
+                        <div class="fleet__option-info">
+                            <h3 class="fleet__option-heading">Mercedes W224</h3>
+                            <p class="fleet__option-text">Samochody nowe, maksymalnie roczne</p>
+                            <p class="fleet__option-description">
+                                <span><i class="fa-solid fa-gas-pump"></i> Diesel</span>
+                                <span><i class="fa-solid fa-gears"></i> Automat</span>
+                                <span><i class="fa-solid fa-gauge-simple-high"></i> 5l/100km</span>
+                            </p>
+                            <button class="fleet__option-btn">Zarezerwuj</button>
+                        </div>
+                    </div>
+
+                    <div class="fleet__option">
+                        <img src="img/fleet/audi100.png" alt="Audi 100" class="fleet__option-img">
+                        <div class="fleet__option-info">
+                            <h3 class="fleet__option-heading">Audi 100</h3>
+                            <p class="fleet__option-text">Samochody nowe, maksymalnie roczne</p>
+                            <p class="fleet__option-description">
+                                <span><i class="fa-solid fa-gas-pump"></i> Benzyna</span>
+                                <span><i class="fa-solid fa-gears"></i> Manual</span>
+                                <span><i class="fa-solid fa-gauge-simple-high"></i> 9l/100km</span>
+                            </p>
+                            <button class="fleet__option-btn">Zarezerwuj</button>
+                        </div>
+                    </div>
+
+                    <div class="fleet__option">
+                        <img src="img/fleet/beetle.png" alt="Volkswagen Beetle" class="fleet__option-img">
+                        <div class="fleet__option-info">
+                            <h3 class="fleet__option-heading">Volkswagen Beetle</h3>
+                            <p class="fleet__option-text">Samochody nowe, maksymalnie roczne</p>
+                            <p class="fleet__option-description">
+                                <span><i class="fa-solid fa-gas-pump"></i> Diesel</span>
+                                <span><i class="fa-solid fa-gears"></i> Manual</span>
+                                <span><i class="fa-solid fa-gauge-simple-high"></i> 4l/100km</span>
+                            </p>
+                            <button class="fleet__option-btn">Zarezerwuj</button>
+                        </div>
+                    </div>
+
+                    <div class="fleet__option">
+                        <img src="img/fleet/mustang.png" alt="Ford Mustang" class="fleet__option-img">
+                        <div class="fleet__option-info">
+                            <h3 class="fleet__option-heading">Ford Mustang</h3>
+                            <p class="fleet__option-text">Samochody nowe, maksymalnie roczne</p>
+                            <p class="fleet__option-description">
+                                <span><i class="fa-solid fa-gas-pump"></i> Benzyna</span>
+                                <span><i class="fa-solid fa-gears"></i> Manual</span>
+                                <span><i class="fa-solid fa-gauge-simple-high"></i> 15l/100km</span>
+                            </p>
+                            <button class="fleet__option-btn">Zarezerwuj</button>
+                        </div>
+                    </div>
+
+                    <div class="fleet__option">
+                        <img src="img/fleet/citroenc1.png" alt="Citroen C1" class="fleet__option-img">
+                        <div class="fleet__option-info">
+                            <h3 class="fleet__option-heading">Citroen C1</h3>
+                            <p class="fleet__option-text">Samochody nowe, maksymalnie roczne</p>
+                            <p class="fleet__option-description">
+                                <span><i class="fa-solid fa-gas-pump"></i> Benzyna</span>
+                                <span><i class="fa-solid fa-gears"></i> Automat</span>
+                                <span><i class="fa-solid fa-gauge-simple-high"></i> 5.5l/100km</span>
+                            </p>
+                            <button class="fleet__option-btn">Zarezerwuj</button>
+                        </div>
+                    </div>
+
+                    <div class="fleet__option">
+                        <img src="img/fleet/honda.png" alt="Motocykl Honda" class="fleet__option-img">
+                        <div class="fleet__option-info">
+                            <h3 class="fleet__option-heading">Honda</h3>
+                            <p class="fleet__option-text">Samochody nowe, maksymalnie roczne</p>
+                            <p class="fleet__option-description">
+                                <span><i class="fa-solid fa-gas-pump"></i> Benzyna</span>
+                                <span><i class="fa-solid fa-gears"></i> Manual</span>
+                                <span><i class="fa-solid fa-gauge-simple-high"></i> 5l/100km</span>
+                            </p>
+                            <button class="fleet__option-btn">Zarezerwuj</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="reservation" class="reservation">
+            <div class="wrapper">
+                <h2 class="section-title">Rezerwacja</h2>
+                <hr>
+
+                <div class="reservation__box">
+                    <form class="reservation__form">
+                        <label for="auto" class="reservation__form-label">Wybierz pojazd:</label>
+                        <select name="auto" class="reservation__form-input" placeholder="Wybierz auto...">
+                            <option>Fiat 500</option>
+                            <option>BMW 323</option>
+                            <option>Mercedes W224</option>
+                            <option>Audi 100</option>
+                            <option>Volkswagen Beetle</option>
+                            <option>Ford Mustang</option>
+                            <option>Citroen C1</option>
+                            <option>Honda</option>
+                        </select>
+
+
+                        <label for="check-in" class="reservation__form-label">Data odbioru:</label>
+                        <input type="date" class="reservation__form-input" id="check-in" placeholder="Wprowadź datę...">
+
+                        <label for="check-out" class="reservation__form-label">Data zwrotu:</label>
+                        <input type="date" class="reservation__form-input" id="check-out"
+                            placeholder="Wprowadź datę...">
+
+                        <button class="reservation__form-button">Zarezerwuj i zapłać</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="wrapper">
+                <div class="newsletter__text" data-aos="flip-left" data-aos-duration="1200">
+                    <p>Zapisz się, aby otrzymywać newsletter...</p>
+                </div>
+                <div class="newsletter__form">
+                    <input type="text">
+                    <button>Zapisz się</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="contact">
+            <div class="wrapper">
+                <h2 class="section-title">Skontaktuj się z nami</h2>
+                <hr>
+                <div class="contact__box">
+                    <div class="contact__box-element">
+                        <i class="fa-solid fa-phone" data-aos="zoom-in"></i>
+                        <p class="contact__box-title">Telefonicznie</p>
+                        <p class="contact__box-text">Poniedziałek - Piątek 8-16</p>
+                        <p class="contact__box-text">567-342-166</p>
+                    </div>
+                    <div class="contact__box-element">
+                        <i class="fa-regular fa-folder-open" data-aos="zoom-in"></i>
+                        <p class="contact__box-title">Nowy wątek na forum</p>
+                        <p class="contact__box-text">Zadaj nam pytanie na naszej stronie internetowej i poczekaj na
+                            odpowiedź administratora.</p>
+                    </div>
+                    <div class="contact__box-element">
+                        <i class="fa-regular fa-comment-dots" data-aos="zoom-in"></i>
+                        <p class="contact__box-title">Czat na żywo</p>
+                        <p class="contact__box-text">Poczekaj na pomoc ze strony naszego konsultanta w czasie
+                            rzeczywistym!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__box">
+                <div class="footer__box-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="footer__box-text">
+                    <p class="footer__box-description"> &copy; EasyGo - Najlepsza wypożyczalnia aut</p>
+                </div>
+
+
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
